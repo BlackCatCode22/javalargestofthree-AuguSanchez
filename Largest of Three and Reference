@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class SumAndLargest {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+       int n1,n2,n3,larfest;
+       Scanner input = new Scanner(System.in);
+       
+       System.ou.println("Enter the number 1");
+       n1 = input.nextInt();
+       System.ou.println("Enter the number 2");
+       n2 = input.nextInt();
+       System.ou.println("Enter the number 3");
+       n3 = input.nextInt();
+       input.close();
+       
+       if( n1 > n2 && n1 > n3 )
+            largest = n1;
+       else if (n2 > n1 && n2 > n3 )
+            largest = n2;
+       else 
+            largest = n3;
+       System.out.printf("Largest amoung %d %d and %d is %d",n1,n2,n3,largest );
+        
+    }
+}
+
+//REFERENCE 
+//https://www.youtube.com/watch?v=AkWnlM2Hoqs
